@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qusz time - Выберте Quiz</title>
+
+    <link rel="icon" type="image/svg" href="img/Logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" href="fonts/nunito-v25-latin_cyrillic-300.woff2"
+        as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-v25-latin_cyrillic-600.woff2" 
+        as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-v25-latin_cyrillic-900.woff2"
+        as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class= "header">
+        <div class="header__container">
+        <a href="/">
+        <img class="header__logo" src="img/Logo.svg" alt="Логотип Quiz в виде элемента пазла">
+    </a>
+        <h1 class="header__title">Quiz time</h1>
+    </div>
+    </header>
+    <main class="main">
+        <h2 class="main__title">Выберите Quiz</h2>
+        <div class="main__box selection">
+            <ul class="selection__list">
+                <li class="selection__item">
+                    <button type="button" class="selection__theme">Финансовая грамотность</button>
+                </li>    
+                    <li class="selection__item">
+                        <button type="button" class="selection__theme">Фронтенд разработка</button>
+                            <p class="selection__result">
+                            <span class="selection__result-ratio">7/10</span>
+                            <span class="selection__result-text">Последний результат</span>
+                            </p>
+                    </li>      
+
+                        <li class="selection__item">
+                            <button type="button" class="selection__theme">Бэкенд разработка</button>
+                        </li>
+
+                    <li class="selection__item">
+                    <button type="button" class="selection__theme">Личные инвестиции</button>
+                    </li>
+
+                        <li class="selection__item">
+                        <button type="button" class="selection__theme">Нутрициология</button>
+                                </li>   
+
+                        <li class="selection__item">
+                        <button type="button" class="selection__theme">Свободная тема</button>
+                        </li>
+
+                            <li class="selection__item">
+                            <button type="button" class="selection__theme">Свободная тема</button>
+                            </li>
+
+                            <li class="selection__item">
+                            <button type="button" class="selection__theme">Свободная тема</button>
+                            </li>
+            </ul>
+        </div>
+        </main>
+</body>
+</html>
